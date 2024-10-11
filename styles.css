@@ -1,0 +1,93 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang terang */
+}
+
+/* Style untuk header */
+header {
+    background-color: #d89f74; /* Warna coklat muda */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style untuk navigasi */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeaa7; /* Warna saat hover */
+}
+
+/* Style untuk konten utama */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: white; /* Latar belakang putih untuk konten */
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4b3d3d; /* Warna coklat tua untuk h2 */
+}
+
+p {
+    color: #7a6a6a; /* Warna coklat medium untuk teks */
+    line-height: 1.5;
+}
+
+/* Style untuk daftar */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background-color: #e4c6a4; /* Warna latar belakang untuk item list */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #c8b09c; /* Warna saat hover */
+}
+
+/* Style untuk iframe */
+iframe {
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4b3d3d; /* Warna coklat tua untuk footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
